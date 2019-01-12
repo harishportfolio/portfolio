@@ -1,0 +1,21 @@
+.btn-profile {
+    padding: 14px 25px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: 'Exo', sans-serif;    
+    box-shadow: none;
+}
+
+.btn-profile:hover, .btn-profile:focus, .btn-profile:active {
+ background: #fff;
+ color: slategray;
+ border: 1px solid #fff;
+ box-shadow: none;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Shadows Into Light', cursive;
+}
