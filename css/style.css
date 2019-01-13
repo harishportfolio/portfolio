@@ -87,7 +87,26 @@ p{
     margin-right: 10px;
     cursor: pointer;
   }
+  .footer-icon-email{
+    position: fixed;
+    left: 1%;
+    bottom: 0;
+    width: 100%;    
+    color: #007fb2;    
+    padding: 10px;        
+    margin-bottom: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 700;
+  }
 
+  .footer-icon-email i{
+    background: #007fb2;
+    color: wheat;
+    padding: 7px;
+    border-radius: 50%;
+  }
   @media screen and (max-width: 992px) {   
     .footer-icon-home {    
       right: 6%;
