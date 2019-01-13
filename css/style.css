@@ -87,6 +87,12 @@ p{
     margin-right: 10px;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 992px) {   
+    .footer-icon-home {    
+      right: 6%;
+    }
+  }
   .footer-icon {
     position: fixed;
     right: 0;
@@ -119,6 +125,7 @@ p{
    padding: 20px;
    margin: 0 auto;
    box-shadow: 1px 1px 6px grey;
+   height: 300px;
  }
 
 .my-journey .card img{  
