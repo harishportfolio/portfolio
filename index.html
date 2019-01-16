@@ -1,23 +1,108 @@
 <html>
+
 <head>
     <title>My Portfolio</title>
     <link rel="icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="css/bootstrap.min.css">    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- custom styles -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />    
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <!-- Hover css -->
     <link href="css/hover.css" rel="stylesheet">
 </head>
 
 <body>
-        <p class="text-info hvr-grow">In Progress....</p>
+    <!-- Fixed nav bar -->
+    <header>
+        <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg navbar-light bg-bLack">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span>Menu</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#">Home</a>
+                    <a class="nav-item nav-link" href="#">About</a>
+                    <a class="nav-item nav-link" href="#">Skills</a>
+                    <a class="nav-item nav-link" href="#">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Section home -->
+    <section class="section-home">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 main-title">
+                    <h1> I 'M Harish</h1>
+                    <h3>Web Developer</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="section-about">
+        <div class="container">
+            <div class="about-title">
+                <h1 class="text-center">About me</h1>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+
+                </div>
+                <div class="col-sm-6">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.
+                        Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam
+                        commodo nibh.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.
+                        Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam
+                        commodo nibh.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skill  section -->
+    <section class="skill-section">
+        <div  id="skills" class="container">
+            <div class="skill-head">
+                <h1 class="text-center">skills</h1>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="95"> <span class="percent">95</span>
+                    </span>
+                    <h4>HTML5</h4>
+                </div>
+                <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="85"> <span class="percent">85</span>
+                    </span>
+                    <h4>CSS3</h4>
+                </div>
+                <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span>
+                    </span>
+                    <h4>jQuery</h4>
+                </div>
+                <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span>
+                    </span>
+                    <h4>WordPress</h4>
+                </div>
+            </div>
+
+        </div>
+    </section>
 </body>
 <!-- Bootstrap js files -->
 <script src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/easypiechart.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
     crossorigin="anonymous">
     </script>
 <!-- custom script -->
 <script src="js/custom.js"></script>
+
 </html>
