@@ -6,27 +6,28 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- custom styles -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
     <!-- Hover css -->
     <link href="css/hover.css" rel="stylesheet">
 </head>
 
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <!-- Fixed nav bar -->
-    <header>
-        <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg navbar-light bg-bLack">
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span>Menu</span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#">Home</a>
-                    <a class="nav-item nav-link" href="#">About</a>
-                    <a class="nav-item nav-link" href="#">Skills</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
-                </div>
-            </div>
+    <header id="header">
+        <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg navbar-light bg-bLack header-nav">
+            <ul>
+                <li>
+                    <a class="page-scroll" href="#page-top">Home</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about">About</a>
+                </li>
+                <li><a class="page-scroll" href="#skill">Skill</a> </li>
+            </ul>
         </nav>
     </header>
     <!-- Section home -->
@@ -36,12 +37,13 @@
                 <div class="col-sm-12 main-title">
                     <h1> I 'M Harish</h1>
                     <h3>Web Developer</h3>
+                    <hr>
                 </div>
             </div>
         </div>
     </section>
     <!-- About Section -->
-    <section class="section-about">
+    <section class="section-about" id="about">
         <div class="container">
             <div class="about-title">
                 <h1 class="text-center">About me</h1>
@@ -67,37 +69,60 @@
         </div>
     </section>
     <!-- Skill  section -->
-    <section class="skill-section">
-        <div  id="skills" class="container">
+    <section class="skill-section" id="skill">
+        <div id="skills" class="container">
             <div class="skill-head">
                 <h1 class="text-center">skills</h1>
                 <hr>
             </div>
-            <div class="row">
+            <div class="row mar-btm-20px">
                 <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="95"> <span class="percent">95</span>
                     </span>
-                    <h4>HTML5</h4>
+                    <h4>HTML</h4>
                 </div>
                 <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="85"> <span class="percent">85</span>
                     </span>
-                    <h4>CSS3</h4>
+                    <h4>CSS</h4>
                 </div>
                 <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span>
                     </span>
-                    <h4>jQuery</h4>
+                    <h4>JAVASCRIPT</h4>
                 </div>
                 <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span>
                     </span>
-                    <h4>WordPress</h4>
+                    <h4>JQUERY</h4>
+                </div>
+            </div>
+            <div class="row padd-bt-40px">
+                <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span>
+                    </span>
+                    <h4>PHP</h4>
+                </div>
+                <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span>
+                    </span>
+                    <h4>LARAVEL</h4>
+                </div>
+                <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span>
+                    </span>
+                    <h4>ANGULAR</h4>
+                </div>
+                <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span>
+                    </span>
+                    <h4>NodeJS</h4>
                 </div>
             </div>
 
         </div>
     </section>
+    <section class="footer">
+        <i class="fab fa-linkedin"></i>
+    </section>
 </body>
 <!-- Bootstrap js files -->
 <script src="js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="js/easypiechart.js"></script>
+
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
     crossorigin="anonymous">
