@@ -1,162 +1,23 @@
 <html>
-
 <head>
     <title>My Portfolio</title>
     <link rel="icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- background animation css -->
-    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
     <!-- custom styles -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Exo|Shadows+Into+Light" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-        crossorigin="anonymous">
-
-
+    <link rel="stylesheet" type="text/css" href="css/style.css" />    
     <!-- Hover css -->
     <link href="css/hover.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="animate-div">
-        <div class="content">
-            <div id="large-header" class="large-header">
-                <canvas id="demo-canvas"></canvas>
-                <div class="main-title text-capitalize">                    
-                    <h1 class="main-text ml1">
-                        <span class="text-wrapper">
-                            <span class="line line1"></span>
-                            <span class="letters">I'M HARISH</span>
-                            <span class="line line2"></span>
-                        </span>
-                    </h1>
-                    <p>Web Developer</p>
-                    <button class="btn btn-profile hvr-forward"><i class="fas fa-forward"></i></button>                    
-                </div>
-            </div>
-        </div>
-    </div>
-    <section id="profile-section" class="hide-sec">
-        <div class="jumbotron jumbotron-fluid about-me-sec">
-            <div class="container text-center">
-                <h1 class="display-4">Me</h1>
-                <!-- <img src="https://picsum.photos/100/100/?image=156" class="rounded-circle" alt="profile pic"> -->
-                <p class="lead">"Integrity and authenticity are important to me. I do what I can to continue to improve
-                    and be the best I can be at whatever I do."</p>
-            </div>
-        </div>
-        <!--Skill Cards -->
-        <div class="container graph-section">
-            <h3 class="text-center">Skills</h3>
-            <div id="container" style="min-width: 300px; height: 400px; margin: 0 auto"></div>
-        </div>
-        <!-- personal details -->
-        <div class="my-journey">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card hvr-wobble-bottom">
-                            <img class="card-img-top" src="img/school.png" alt="Card image cap">
-                            <div class="card-body">                                
-                                <p class="card-text">Completed my schooling from <b>RKR GRKS MATRIC HR SEC</b> school, udumalpet.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card hvr-wobble-bottom">
-                            <img class="card-img-top" src="img/graduation.png" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-text">Completed my graduation from <b>SREE SARASWATHI THYAGARAJA</b> college, pollachi.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card hvr-wobble-bottom">
-                            <img class="card-img-top" src="img/employee.png" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-text">I have started my carrer as associate web developer in <b>ATOM SYSTEMS PVT.LTD.</b></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer -->
-        <p class="footer-icon-email hvr-forward"><i class="fas fa-paper-plane"></i> areaharish@gmail.com</p>
-        <div class="footer-icon-home hvr-pulse-shrink">
-            <img src="img/home.png" alt="linked in">
-        </div>
-        <div class="footer-icon hvr-pulse-shrink" onClick="openLinkedIn()">
-            <img src="img/Linkedin-icon.png" alt="linked in">
-        </div>
-    </section>
+        <p class="text-info hvr-grow">In Progress....</p>
 </body>
-
-
-<!--
-Animation script
-////////////////
-A collection of animated background header effects for your inspiration. We use Canvas and Javascript to create an animated background for large site headers.
-[Article on Codrops](http://tympanus.net/codrops/?p=20153)
-[Demo](http://tympanus.net/Development/AnimatedHeaderBackgrounds/)
-Integrate or build upon it for free in your personal or commercial projects. Don't republish, redistribute or sell "as-is". 
-Read more here: [License](http://tympanus.net/codrops/licensing/)
--->
-<script src="js/TweenLite.min.js"></script>
-<script src="js/EasePack.min.js"></script>
-<script src="js/demo-1.js"></script>
-
 <!-- Bootstrap js files -->
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
     crossorigin="anonymous">
     </script>
-<!-- Chart js -->
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
-<script src="https://code.highcharts.com/modules/export-data.js"></script>
-
-
 <!-- custom script -->
 <script src="js/custom.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-<script>
-    // Wrap every letter in a span
-    $('.ml1 .letters').each(function () {
-        $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
-    });
-
-    anime.timeline({ loop: true })
-        .add({
-            targets: '.ml1 .letter',
-            scale: [0.3, 1],
-            opacity: [0, 1],
-            translateZ: 0,
-            easing: "easeOutExpo",
-            duration: 600,
-            delay: function (el, i) {
-                return 70 * (i + 1)
-            }
-        }).add({
-            targets: '.ml1 .line',
-            scaleX: [0, 1],
-            opacity: [0.5, 1],
-            easing: "easeOutExpo",
-            duration: 700,
-            offset: '-=875',
-            delay: function (el, i, l) {
-                return 80 * (l - i);
-            }
-        }).add({
-            targets: '.ml1',
-            opacity: 0,
-            duration: 1000,
-            easing: "easeOutExpo",
-            delay: 1000
-        });
-</script>
-
 </html>
